@@ -198,8 +198,8 @@
                     return 0;
                 });
                 var price = (data[0].price.replace("$","")) * 7;
-                document.getElementById("p1").innerHTML = "The predicted weekly income from this location is $" + price;
-                document.getElementById("p2").innerHTML = "The optimal booking price from this location is $" + Math.round(price*.923);
+                document.getElementById("p1").innerHTML = "The predicted weekly income for this location is $" + price;
+                document.getElementById("p2").innerHTML = "The optimal booking price for this location is $" + Math.round(price*.923);
             });
         }
     </script>
